@@ -108,7 +108,15 @@ public class Opciones {
                 });
             } 
         }); 
-	b3.addActionListener(new ActionListener(){
+	b1.addActionListener(new ActionListener(){
+            @Override public void actionPerformed(ActionEvent e) { 
+                frame.setVisible(false);
+                new Notificacion("Alerta","Usted esta cntagiado");
+        
+            }
+        
+        });
+        b3.addActionListener(new ActionListener(){
             @Override public void actionPerformed(ActionEvent e) { 
                 frame.setVisible(false);
                 new Visita();
