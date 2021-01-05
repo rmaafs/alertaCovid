@@ -17,7 +17,7 @@ public class AlertaCovid {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new MenuPrincipal();
+        new Opciones();
 //        new Notificacion("Alerta", "Usted está contagiado");
     }
     

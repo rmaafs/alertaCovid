@@ -20,7 +20,7 @@ import javax.swing.JPanel;
  * @author zerme
  */
 public class Opciones {
-    private JFrame frame;
+    public static JFrame frame;
     private JPanel panel;
     private  JLabel mensaje;
     private JButton b1, b2, b3;
